@@ -1,38 +1,207 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin-top: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loading{
+  background-color: black;
+  height: 100vh;
+  width: 100vw !important;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-content: center;
+}
+
+.loadingText{
   color: white;
+  margin-top: 38vh;
+  font-size: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.loadingButton{
+  width: 10vw;
+  position: absolute;
+  margin-top: -45vh;
+  margin-left: 45vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.backBox{
+  position: absolute;
+  width: 50vw;
+  height: 33vh;
+  margin-left: 5vw;
+  margin-top: 13vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.backBox2{
+  position: absolute;
+  width: 30vw;
+  height: 33vh;
+  margin-left: 60vw;
+  margin-top: 13vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.inputBox{
+  position: absolute;
+  width: 30vw;
+  height: 5vh;
+  margin-top: 7vh;
+  margin-left: 5vw;
+  font-size: 50px;
+  color: rgb(80, 80, 80);
+}
+
+.fetchButton{
+  position: absolute;
+  margin-left: 37vw;
+  margin-top: 7vh;
+  height: 40px;
+}
+
+.cardTemp{
+  margin-top: 2vh;
+  margin-left: 4.2vw;
+}
+
+
+.headerName{
+  color: white;
+  font-size: 70px;
+  margin-left: 4vw;
+}
+.headerCond{
+  color: white;
+  font-size: 60px;
+  margin-left: 14vw;
+  margin-top: -2vh;
+
+}
+.headerTemp{
+  color: white;
+  font-size: 80px;
+  margin-left: 28vw;
+  margin-top: -19vh;
+}
+
+.headerHigh{
+  color: white;
+  font-size: 50px;
+  margin-left: 8vw;
+  margin-top: 3vh;
+}
+.headerLow{
+  color: white;
+  font-size: 50px;
+  margin-left: 8vw;
+}
+
+.Rain{
+  background-image: url('/src/Assets/RainOnWindowsGif.gif');
+  min-height: 50% !important;
+  height: 50vh;
+  width: 100vw !important;
+  box-sizing: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  border-bottom: 1px solid black;
+}
+
+.Clear{
+  background-image: url('/src/Assets/sunnyWeatherLater.jpg');
+  min-height: 50% !important;
+  height: 50vh;
+  width: 100vw !important;
+  box-sizing: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  border-bottom: 1px solid black;
+}
+
+.Clouds{
+  background-image: url('/src/Assets/cloudyWeather.jpg');
+  min-height: 50% !important;
+  height: 50vh;
+  width: 100vw !important;
+  box-sizing: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  border-bottom: 1px solid black;
+}
+
+.Snow{
+  background-image: url('/src/Assets/SnowFallingDown.gif');
+  min-height: 50% !important;
+  height: 50vh;
+  width: 98.93vw !important;
+  box-sizing: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  border-bottom: 1px solid black;
+}
+
+.forecastContainer{
+  display: flex;
+  justify-content: center; /* center the flex items horizontally */
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.cardDate{
+  margin-left: 5vw;
+}
+
+.cardCond{
+  margin-left: 7.5vw;
+}
+
+.icons{
+  width: 90px;
+  margin-left: 7vw;
+  /* height:  */
+}
+
+.ClearBar{
+  height: 50vh;
+  width: 20vw;
+  background-color: #0C99C0;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.RainBar{
+  height: 50vh;
+  width: 20vw;
+  background-color: #597081;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.CloudsBar{
+  height: 50vh;
+  width: 20vw;
+  background-color: #8f8f8f;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.SnowBar{
+  height: 50vh;
+  width: 20vw;
+  background-color: #ebebeb;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
 }
