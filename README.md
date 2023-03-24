@@ -1,3 +1,13 @@
+// Peer reviewed by Harrison Busby:
+// Griffins website is decent. I like how his cards change colors depending on the weather and I like the background image. Another thing is that the current weather and the 5 day forecast populates information and shows the icons which is great!
+// Now for the rough part. Griffins website is neither responsive nor does it have a favorites function. Also his cards for the 5 day forecast and his main box are very sharp. There is also no spacing between the cards which makes it rough to look at. Another tiny thing is it doesn't say the specific day of the week rather the date time. Also, when he fetches the information, sometimes you have to press the fetch button twice for it to populate information.
+// All in all I think that Griffin's project is decent but if he had a little more time I think he could have made the changes I said above.
+// Good job!
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
