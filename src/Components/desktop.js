@@ -8,8 +8,7 @@ import Snow from '../Assets/Snow.png'
 import Clouds from '../Assets/Clouds.png'
 import ForecastCard from "./card";
 import weatherImages from "./icons";
-
-const key = "&appid=365f138cea066f516791f6d7897e34d4&units=imperial";
+import key from "./key";
 
 function WeatherFetcher() {
     
